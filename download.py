@@ -8,7 +8,7 @@ from catbox import upload_to_catbox
 app = FastAPI()
 AUTHOR = "minatocodes"
 
-COOKIE_FILE = "/tmp/cookies.txt"
+COOKIE_FILE = "/cookies.txt"
 
 def write_cookie_from_env():
     cookie_data = os.environ.get("COOKIE")
